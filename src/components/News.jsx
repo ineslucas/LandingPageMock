@@ -65,7 +65,7 @@ const NewsStory = styled.div`
   }
 `;
 
-const Placeholder = styled.div` // Invisible placeholder to keep the grid composition
+const Placeholder = styled.div` // Invisible placeholder to keep the grid composition whilst keeping aesthetic negative space
   width: ${size.width};
   height: ${size.height};
   background-color: transparent;

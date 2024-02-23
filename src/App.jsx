@@ -52,7 +52,7 @@ function App() {
           shadows
           dpr={ 1 }
           style={{ width: '100vw', height: '30vh', position: 'fixed', bottom: 0, right: 0 }}
-          // , backgroundColor: 'rgb(181, 79, 111)'
+          // , backgroundColor: 'rgb(181, 79, 111)' (for debugging purposes only)
 
           gl={ {
             antialias: true, // For smooth edges

@@ -1,11 +1,10 @@
 import Tree from './Tree';
-import { SoftShadows, MapControls, Billboard, Text } from "@react-three/drei";
-// OrbitControls,
+import { SoftShadows, OrbitControls, MapControls, Billboard, Text } from "@react-three/drei";
 
 export default function Scene() {
   return <>
     <SoftShadows size={ 80 } samples={ 20 } focus={ 0 } />
-    {/* <OrbitControls /> */}
+    <OrbitControls />
     <MapControls />
 
     <Tree position={[-1, -2.5, -8]} />
