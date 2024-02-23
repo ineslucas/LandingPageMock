@@ -1,1 +1,1 @@
-# MyPolis Technical Challenge
+MyPolis Technical Challenge
